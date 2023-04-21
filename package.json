@@ -1,0 +1,47 @@
+{
+  "name": "astro-internalise-css",
+  "version": "1.0.0-beta.0",
+  "description": "Astro integration to internalise all external style sheets in HTML files.",
+  "keywords": [
+    "astro-component",
+    "astro-integration",
+    "css"
+  ],
+  "homepage": "https://github.com/tobias-edwards/astro-internalise-css#readme",
+  "bugs": "https://github.com/tobias-edwards/astro-internalise-css/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tobias-edwards/astro-internalise-css.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Tobias Edwards",
+    "url": "https://tobiasedwards.co.uk/"
+  },
+  "type": "module",
+  "exports": [
+    "./src/index.ts"
+  ],
+  "files": [
+    "CHANGELOG.md",
+    "src/",
+    "!src/**/*.test.ts"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.1",
+    "@types/node": "^18.15.13",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.1"
+  },
+  "peerDependencies": {
+    "astro": "^2.0.0"
+  },
+  "volta": {
+    "node": "18.16.0",
+    "npm": "9.6.5"
+  }
+}
