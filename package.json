@@ -1,6 +1,6 @@
 {
   "name": "astro-internalise-css",
-  "version": "1.0.0-beta.0",
+  "version": "1.0.0",
   "description": "Astro integration to internalise all external style sheets in HTML files.",
   "keywords": [
     "astro-component",
