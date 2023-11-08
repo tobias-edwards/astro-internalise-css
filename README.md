@@ -1,3 +1,7 @@
+> # DEPRECATED
+>
+> Astro supports this capability natively via [`build.inlineStylesheets`](https://docs.astro.build/en/reference/configuration-reference/#buildinlinestylesheets) since [astro@2.6.0](https://github.com/withastro/astro/releases/tag/astro%402.6.0).
+
 # astro-internalise-css
 
 Astro integration to internalise all external style sheets in HTML files.
